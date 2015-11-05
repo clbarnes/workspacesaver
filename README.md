@@ -41,4 +41,4 @@ from workspacesaver import retrieve_workspace
 retrieve_workspace('workspace.db', globals())
 ```
 
-By default, callables (types and functions) are not added to the database and will not be retrieved from any database. To enable them, use `allow_callables=True` when constructing the `WorkspaceSaver` and using `retrieve_workspace()``.
+By default, callables (types and functions) are not added to the database and will not be retrieved from any database. To enable them, use `allow_callables=True` when constructing the `WorkspaceSaver` and using `retrieve_workspace()`.
