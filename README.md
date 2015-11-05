@@ -4,6 +4,8 @@ A utility to replicate matlab's workspace saving function.
 
 This module uses `shelve` to pickle global variables and add them to a persistent database, and retrieve them again.
 
+It was written for python 3 but may work in python 2.
+
 ## Installation
 
 ```bash
