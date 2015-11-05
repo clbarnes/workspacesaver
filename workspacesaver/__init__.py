@@ -1,1 +1,1 @@
-from .main import WorkspaceSaver, retrieve_workspace
+from .main import WorkspaceSaver, load_workspace
