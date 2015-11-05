@@ -40,7 +40,8 @@ with WorkspaceSaver('workspace.db', globals()):
 ### Retrieving the workspace:
 ```python
 from workspacesaver import retrieve_workspace
-retrieve_workspace('workspace.db', globals())
+load_workspace('workspace.db', globals())
 ```
 
-By default, callables (types and functions) are not added to the database and will not be retrieved from any database. To enable them, use `allow_callables=True` when constructing the `WorkspaceSaver` and using `retrieve_workspace()`.
+By default, callables (types and functions) are not added to the database and will not be retrieved from any database
+. To enable them, use `allow_callables=True` when calling `WorkspaceSaver.save()` and using `load_workspace()`.
